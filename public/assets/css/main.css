@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Gabriola";
+    src: url("fonts/Gabriola.ttf") format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Gabriola", sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn {
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #2D6033;
+    color: white;
+}
+form {
+    background: #BBD9B2;
+    padding: 20px;
+}
+.btn-main {
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #BBD9B2;
+    color: #2D6033;
+}
+.right {
+
+}
+.font-large {
+    font-size: 30px;
+}
+
+.ma-left-30 {
+    margin-left: 30px;
+}
+
+.main-background {
+    background: #FFFFFF;
+}
+
+.additional-background {
+    background: #BBD9B2;
+}
+
+.accent {
+    color: #2D6033;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.border {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.cl-white {
+    color: white;
+}
+.w85 {
+    width: 85%;
+}
+
+.w15 {
+    width: 15%;
+}
+
+.minimal-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.error {
+    color: #dc3545;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.alert {
+    color: #dc3545;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f8d7da;
+    border-radius: 4px;
+}
